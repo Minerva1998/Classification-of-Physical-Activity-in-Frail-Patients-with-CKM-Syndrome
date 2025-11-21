@@ -1,11 +1,12 @@
 {
-  "name": "classification-of-physical-activity-in-frail-patients-with-ckm-syndrome",
+  "name": "calculator-app",
   "version": "1.0.0",
-  "main": "index.html",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {}
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "license": "ISC"
 }
