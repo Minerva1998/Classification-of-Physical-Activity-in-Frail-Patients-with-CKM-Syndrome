@@ -23,6 +23,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            margin: 20px 0;
         }
         table, th, td {
             border: 1px solid black;
@@ -64,9 +65,162 @@
                 <td>0.045815</td>
                 <td>2</td>
             </tr>
-            <!-- Add more rows here -->
+            <tr>
+                <td>TG (mg/dL)</td>
+                <td>0.032741</td>
+                <td>0.003437</td>
+                <td>0.050875</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Intention</td>
+                <td>0.02822</td>
+                <td>-0.00478</td>
+                <td>0.043965</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>BSCS (Impulse control)</td>
+                <td>0.024855</td>
+                <td>-0.00611</td>
+                <td>0.030827</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>PSSS</td>
+                <td>0.021323</td>
+                <td>-0.0019</td>
+                <td>0.028534</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>CFS (Future Orientation)</td>
+                <td>0.020859</td>
+                <td>0.002042</td>
+                <td>0.028289</td>
+                <td>7</td>
+            </tr>
         </table>
-        <!-- Add more sections for other types (Balanced Activity Type, Sedentary Static Type) -->
+
+        <h2>Balanced Activity Type</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Mean_Abs_SHAP</th>
+                <th>Mean_SHAP</th>
+                <th>SD_SHAP</th>
+                <th>Rank</th>
+            </tr>
+            <tr>
+                <td>BSCS (Impulse control)</td>
+                <td>0.075821</td>
+                <td>-0.00224</td>
+                <td>0.101313</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>BSCS (Self-discipline)</td>
+                <td>0.063894</td>
+                <td>0.009331</td>
+                <td>0.084344</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Vocation classification</td>
+                <td>0.063628</td>
+                <td>-0.04419</td>
+                <td>0.062794</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Intention</td>
+                <td>0.063106</td>
+                <td>0.013872</td>
+                <td>0.116062</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>PSQI</td>
+                <td>0.052677</td>
+                <td>-0.00962</td>
+                <td>0.067287</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>SRHI</td>
+                <td>0.049322</td>
+                <td>-0.00177</td>
+                <td>0.066302</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Delay Discounting Rate (log Geomean k)</td>
+                <td>0.043601</td>
+                <td>-0.01708</td>
+                <td>0.054883</td>
+                <td>7</td>
+            </tr>
+        </table>
+
+        <h2>Sedentary Static Type</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Mean_Abs_SHAP</th>
+                <th>Mean_SHAP</th>
+                <th>SD_SHAP</th>
+                <th>Rank</th>
+            </tr>
+            <tr>
+                <td>Vocation classification</td>
+                <td>0.214113</td>
+                <td>0.13585</td>
+                <td>0.198974</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>BSCS (Self-discipline)</td>
+                <td>0.076844</td>
+                <td>-0.01412</td>
+                <td>0.082953</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>BSCS (Impulse control)</td>
+                <td>0.071129</td>
+                <td>0.009896</td>
+                <td>0.078178</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Intention</td>
+                <td>0.055783</td>
+                <td>-0.00705</td>
+                <td>0.083587</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>TG (mg/dL)</td>
+                <td>0.055348</td>
+                <td>-0.00521</td>
+                <td>0.085702</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>SRHI</td>
+                <td>0.055145</td>
+                <td>-0.00436</td>
+                <td>0.069068</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Delay Discounting Rate (log Geomean k)</td>
+                <td>0.037834</td>
+                <td>0.020464</td>
+                <td>0.057146</td>
+                <td>7</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
