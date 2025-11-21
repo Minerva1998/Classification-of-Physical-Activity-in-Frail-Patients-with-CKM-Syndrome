@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification of Physical Activity in Frail Patients with CKM Syndrome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Classification of Physical Activity in Frail Patients with CKM Syndrome</h1>
+    </header>
+    <div class="content">
+        <h2>Active Sedentary Type</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Mean_Abs_SHAP</th>
+                <th>Mean_SHAP</th>
+                <th>SD_SHAP</th>
+                <th>Rank</th>
+            </tr>
+            <tr>
+                <td>Vocation classification</td>
+                <td>0.140092</td>
+                <td>-0.09025</td>
+                <td>0.13186</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>BSCS (Self-discipline)</td>
+                <td>0.037803</td>
+                <td>0.004972</td>
+                <td>0.045815</td>
+                <td>2</td>
+            </tr>
+            <!-- Add more rows here -->
+        </table>
+        <!-- Add more sections for other types (Balanced Activity Type, Sedentary Static Type) -->
+    </div>
+</body>
+</html>
